@@ -1,4 +1,4 @@
-import '../../Global.css';
+import '../../GLobal.css';
 import { Btn_GetNow } from './Buttons';
 
 const colorMap = {
@@ -80,5 +80,6 @@ function Card({ tag, title, description, price, benefits,w,variant,pricexyear,re
     </div>
   );
 }
+
 
 export default Card;
